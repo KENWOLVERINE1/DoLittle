@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "164146131855",
+    "project_id": "dolittle-e129c",
+    "storage_bucket": "dolittle-e129c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:164146131855:android:d4d65db8a5db8950b411fa",
+        "android_client_info": {
+          "package_name": "com.Amenda.dolittle"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJQKcNDi37JuhKScaBP2Mdk47SqXmFJLw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
