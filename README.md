@@ -1,4 +1,4 @@
-# dolittle
+# DoLittle
 
 A new Flutter project.
 
