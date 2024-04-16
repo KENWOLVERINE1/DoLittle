@@ -32,8 +32,9 @@ dependencies:
     sdk: flutter
   firebase_core:
   firebase_auth:
-  google_fonts:
+  google_fonts: 6.1.0
   cloud_firestore:
+  fluttertoast:
 
 
 

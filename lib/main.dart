@@ -1,5 +1,5 @@
 import 'package:dolittle/auth/authscreen.dart';
-import 'package:dolittle/screens/home.dart';
+import 'package:dolittle/screens/tasks.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
@@ -25,7 +25,8 @@ class MyApp extends StatelessWidget {
         scaffoldBackgroundColor: Color.fromRGBO(224, 216, 232, 1),
         useMaterial3: true,
       ),
-      home: StreamBuilder(
+      home: //Home()
+      StreamBuilder(
         stream: FirebaseAuth.instance.authStateChanges(),
         builder: (Context, usersnapshot){
           if(usersnapshot.hasData){
