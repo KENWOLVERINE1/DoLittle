@@ -103,7 +103,6 @@ class _AddTaskState extends State<AddTask> {
                         MaterialStateProperty.resolveWith<EdgeInsetsGeometry>(
                       (Set<MaterialState> states) {
                         return const EdgeInsets.all(20);
-
                       },
                     ),
                   ),
