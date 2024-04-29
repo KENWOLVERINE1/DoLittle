@@ -1,3 +1,4 @@
+import 'package:dolittle/screens/tasks.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:fluttertoast/fluttertoast.dart';
@@ -95,6 +96,8 @@ class _AddTaskState extends State<AddTask> {
                 child: ElevatedButton(
                   onPressed: () {
                     addtasktofirestore();
+                    Navigator.pop(
+                        context, MaterialPageRoute(builder: (context) => Home()));
                   },
                   style: ButtonStyle(
                     backgroundColor: MaterialStateProperty.all(
